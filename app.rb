@@ -18,7 +18,7 @@ if calcT == "a"
     puts num1 ** num2
   end
 elsif calcT == "b"
-  puts "BMI ft (bft), BMI meters (bm), trip-calculator (tc)"
+  puts "BMI ft (bft), BMI meters (bm)"
   type = gets.chomp
   case type
     when "bft"
@@ -34,7 +34,7 @@ elsif calcT == "b"
         wik = gets.to_f
         puts wik / (him**2)
     else
-      puts "Welcome to trip calculator"
+      puts "That isn't a valid option"
   end
 else
   puts "Choose a function: Add (a), Subtract (s), Multiply (m), Divide (d)"
